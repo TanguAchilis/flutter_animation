@@ -58,10 +58,11 @@ class MyApp extends StatelessWidget{
                                      mainAxisAlignment: MainAxisAlignment.center,
                                      children: <Widget>[
                                        Container(
-                                      
+                                         
                                          child:  FloatingActionButton(onPressed:()=>{print('button pressed')},backgroundColor: Colors.black ,
                                             child: Icon(Icons.favorite_border, size:24, color:Colors.white)),
                                          padding: EdgeInsets.all(1),
+                                         margin:EdgeInsets.fromLTRB(0, 0, 0, 5),
                                          decoration: BoxDecoration(color:Colors.white,borderRadius: BorderRadius.circular(75))
                                        ),
 
@@ -79,6 +80,7 @@ class MyApp extends StatelessWidget{
                                        Container(
                                          child:  FloatingActionButton(onPressed:()=>{print('button pressed')},backgroundColor: Colors.black ,child: Icon(Icons.headset, size:24, color:Colors.lightBlueAccent)),
                                          padding: EdgeInsets.all(1),
+                                         margin:EdgeInsets.fromLTRB(0, 0, 0, 5),
                                          decoration: BoxDecoration(color:Colors.white,borderRadius: BorderRadius.circular(75))
                                        ),
 
@@ -96,6 +98,7 @@ class MyApp extends StatelessWidget{
                                        Container(
                                          child:  FloatingActionButton(onPressed:()=>{print('button pressed')},backgroundColor: Colors.black ,child: Icon(Icons.headset, size:24, color:Colors.white)),
                                          padding: EdgeInsets.all(1),
+                                         margin:EdgeInsets.fromLTRB(0, 0, 0, 5),
                                          decoration: BoxDecoration(color:Colors.white,borderRadius: BorderRadius.circular(75))
                                        ),
 
